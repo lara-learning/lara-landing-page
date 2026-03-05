@@ -1,0 +1,37 @@
+{
+  "name": "lara-landing-page",
+  "version": "1.0.0",
+  "description": "This is an introductory landing page designed to provide a clear overview of what Lara is and how it works. It presents the core concept, main features, and overall structure of the system in a concise and accessible format.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lara-learning/lara-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lara-learning/lara-landing-page/issues"
+  },
+  "homepage": "https://github.com/lara-learning/lara-landing-page#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-plugin-vite": "^7.0.0",
+    "@types/react": "^19.2.14",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.2.1",
+    "tsx": "^4.21.0"
+  },
+  "type": "module"
+}
