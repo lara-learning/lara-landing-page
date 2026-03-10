@@ -1,3 +1,5 @@
+import "tsx/esm";
+
 export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
 
@@ -13,6 +15,12 @@ export default async function (eleventyConfig) {
       root: "src",
     },
   });
+
+  eleventyConfig.addExtension(["11ty.ts", "11ty.tsx"], {
+    key: "11ty.js",
+  });
+
+  eleventyConfig.addTemplateFormats("11ty.ts,11ty.tsx");
 
   return {
     dir: {
