@@ -1,5 +1,6 @@
 import { JSX } from "react";
 import { renderToString } from "react-dom/server";
+import { PageBuilder } from "./pageBuilder";
 
 type BaseLayoutProps = { children?: JSX.Element };
 
@@ -23,11 +24,7 @@ function BaseLayout({ children }: BaseLayoutProps) {
 export function Page() {
   return (
     <BaseLayout>
-      <div>
-        <h1 className="text-3xl font-bold text-blue-600">Hello world</h1>
-        <h1>headline</h1>
-        <p>paragraph</p>
-      </div>
+      <PageBuilder />
     </BaseLayout>
   );
 }

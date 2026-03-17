@@ -11,13 +11,13 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.addPlugin(EleventyPluginVite, {
     viteOptions: {
-      clearScreen: false,
-      appType: "mpa",
       plugins: [tailwindcss()],
       root: "src",
       base: isProd ? "/lara-landing-page/" : "/",
     },
   });
+
+  eleventyConfig.addWatchTarget("./src/**/*.tsx");
 
   eleventyConfig.addExtension(["11ty.ts", "11ty.tsx"], {
     key: "11ty.js",

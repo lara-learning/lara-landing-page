@@ -4,6 +4,7 @@
   "description": "This is an introductory landing page designed to provide a clear overview of what Lara is and how it works. It presents the core concept, main features, and overall structure of the system in a concise and accessible format.",
   "main": "index.js",
   "scripts": {
+    "watch": "npx @11ty/eleventy --watch",
     "dev": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
     "clean": "rm -rf dist",
