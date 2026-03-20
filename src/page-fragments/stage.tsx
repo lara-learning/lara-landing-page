@@ -1,6 +1,6 @@
 export default function () {
   return (
-    <div className="relative -z-3 min-h-[900px] overflow-hidden bg-black">
+    <section className="relative -z-3 min-h-[900px] overflow-hidden bg-black">
       <div className="absolute -z-2 pointer-events-none bottom-[20%] left-[25%] w-[550px] h-[550px] bg-[#da67cf] rounded-full blur-[160px] opacity-100 mix-blend-screen"></div>
       <div className="absolute -z-2 pointer-events-none bottom-[20%] right-[15%] w-[550px] h-[550px] bg-[#DA1C85] rounded-full blur-[160px] opacity-100 mix-blend-screen"></div>
 
@@ -17,6 +17,7 @@ export default function () {
         <img
           className="w-[60px] aspect-1 mt-[140px]"
           src="/assets/svg/logo.svg"
+          alt="lara-logo"
         />
         <h1 className="text-white text-6xl lg:text-8xl font-bold text-center mt-4">
           Willkommen bei lara!
@@ -28,7 +29,7 @@ export default function () {
         </p>
         <img className="w-[756px]" src="/assets/png/laptop-and-phone.png" />
       </div>
-    </div>
+    </section>
   );
 }
 
