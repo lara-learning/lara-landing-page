@@ -17,67 +17,77 @@ export function Benefits() {
           </h2>
 
           <ul className="mt-8 space-y-4 text-sm leading-relaxed">
-            <li className="flex gap-3">
-              <LaraIcon />
-              <span>
-                Es entsteht ein viel{" "}
-                <span className="text-[#6A2FEE] font-semibold">
-                  leichterer Austausch
-                </span>{" "}
-                zwischen Azubi und Ausbilder.
-              </span>
-            </li>
+            <BenefitItem
+              span={
+                <>
+                  Es entsteht ein viel
+                  <Highlight text=" leichterer Austausch " />
+                  zwischen Azubi und Ausbilder.
+                </>
+              }
+            />
 
-            <li className="flex gap-3">
-              <LaraIcon />
-              <span>
-                Betrieb, Ausbilder und auch Azubi,{" "}
-                <span className="text-[#6A2FEE] font-semibold">sparen</span> mit
-                dem Tool{" "}
-                <span className="text-[#6A2FEE] font-semibold">
-                  Zeit, Arbeit und Nerven.
-                </span>
-              </span>
-            </li>
+            <BenefitItem
+              span={
+                <>
+                  Betrieb, Ausbilder und auch Azubi,
+                  <Highlight text=" sparen " /> mit dem Tool
+                  <Highlight text=" Zeit, Arbeit und Nerven." />
+                </>
+              }
+            />
           </ul>
 
           <h3 className="mt-25 text-4xl font-normal">Vorraussetzungen:</h3>
 
           <ul className="mt-6 space-y-4 text-sm leading-relaxed">
-            <li className="flex gap-3">
-              <LaraIcon />
-              <span>
-                Deinen Ausbildungsbetrieb bzw. die Ausbilder:innen über das Tool{" "}
-                <span className="text-[#6A2FEE] font-semibold">
-                  informieren
-                </span>
-              </span>
-            </li>
+            <BenefitItem
+              span={
+                <>
+                  Deinen Ausbildungsbetrieb bzw. die Ausbilder:innen über das
+                  Tool <Highlight text=" informieren" />
+                </>
+              }
+            />
 
-            <li className="flex gap-3">
-              <LaraIcon />
-              <span>
-                Eine verantwortliche Person oder ein Team benennen, welches die{" "}
-                <span className="text-[#6A2FEE] font-semibold">
-                  Implementierung koordiniert
-                </span>
-              </span>
-            </li>
+            <BenefitItem
+              span={
+                <>
+                  Eine verantwortliche Person oder ein Team benennen, welches
+                  die
+                  <Highlight text=" Implementierung koordiniert" />
+                </>
+              }
+            />
 
-            <li className="flex gap-3">
-              <LaraIcon />
-              <span>
-                Ein gültiger{" "}
-                <span className="text-[#6A2FEE] font-semibold">Microsoft</span>{" "}
-                Log In
-              </span>
-            </li>
+            <BenefitItem
+              span={
+                <>
+                  Ein gültiger
+                  <Highlight text=" Microsoft " />
+                  Log In
+                </>
+              }
+            />
           </ul>
         </div>
       </div>
     </section>
   );
 }
+
+const BenefitItem = ({ span }) => {
+  return (
+    <li className="flex gap-3">
+      <LaraIcon />
+      <span>{span}</span>
+    </li>
+  );
+};
+
+const Highlight = ({ text }) => {
+  return <span className="text-[#6A2FEE] font-semibold">{text}</span>;
+};
 
 function LaraIcon() {
   return (

@@ -105,7 +105,7 @@ function ContentBoxWithNumber({
   return (
     <div className="relative pt-[325px]">
       <p
-        className={`absolute leading-none top-[128px] right-[-45px] text-[500px] font-bold text-[${color}]`}
+        className={`absolute leading-none top-[152px] md:top-[140px] lg:top-[128px] right-[-30px] lg:right-[-45px] text-[400px] md:text-[450px] lg:text-[500px] font-bold text-[${color}]`}
       >
         {number}
       </p>
@@ -116,8 +116,10 @@ function ContentBoxWithNumber({
 
 function ContentBox({ content }: { content: string }) {
   return (
-    <div className="w-[580px] h-[280px] bg-white/70 backdrop-blur-sm rounded-md px-10 py-12 text-center flex items-center justify-center">
-      <p className="text-4xl font-normal leading-tight text-black">{content}</p>
+    <div className="w-[480px] lg:w-[580px] h-[230px] lg:h-[280px] bg-white/70 backdrop-blur-sm rounded-md px-10 py-12 text-center flex items-center justify-center">
+      <p className="text-3xl lg:text-4xl font-normal leading-tight text-black">
+        {content}
+      </p>
     </div>
   );
 }

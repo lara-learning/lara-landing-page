@@ -1,6 +1,6 @@
 export function Contact() {
   return (
-    <section className="py-[175px] bg-black px-8 md:px-16 lg:px-32">
+    <section className="py-[195px] bg-black px-8 md:px-16 lg:px-32">
       <div className="w-full max-w-[900px] mx-auto">
         <h1 className="text-[100px] lg:text-[120px] font-extrabold text-[#6A2FEE]">
           Kontakt
