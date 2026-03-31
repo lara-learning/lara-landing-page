@@ -18,6 +18,7 @@ export default function () {
           className="w-[60px] aspect-1 mt-[140px]"
           src="/assets/svg/logo.svg"
           alt="lara-logo"
+          fetchPriority="high"
         />
         <h1 className="text-white text-6xl lg:text-8xl font-bold text-center mt-4">
           Willkommen bei lara!
@@ -32,6 +33,7 @@ export default function () {
           src="/assets/png/laptop-and-phone.png"
           alt=""
           aria-hidden="true"
+          fetchPriority="high"
         />
       </div>
     </section>
@@ -40,18 +42,18 @@ export default function () {
 
 function Glow1() {
   return (
-    <div className="absolute -z-1 pointer-events-none top-[-55px] left-[-80px] w-[450px] h-[450px] bg-[#6A2FEE] rounded-full blur-[135px] opacity-100 mix-blend-screen"></div>
+    <div className="absolute -z-1 pointer-events-none top-[-55px] left-[-80px] w-[450px] 2xl:w-[calc(450px+(100%-1546px)*0.35)] h-[450px] bg-[#6A2FEE] rounded-full blur-[135px] opacity-100 mix-blend-screen"></div>
   );
 }
 
 function Glow2() {
   return (
-    <div className="absolute -z-1 pointer-events-none bottom-[-100px] left-[10%] w-[550px] h-[550px] bg-[#e589e8] rounded-full blur-[160px] opacity-100 mix-blend-screen"></div>
+    <div className="absolute -z-1 pointer-events-none bottom-[-100px] left-[10%] w-[550px] 2xl:w-[calc(550px+(100%-1546px)*0.35)] h-[550px] bg-[#e589e8] rounded-full blur-[160px] opacity-100 mix-blend-screen"></div>
   );
 }
 
 function Glow3() {
   return (
-    <div className="absolute -z-1 pointer-events-none top-[30%] right-[-100px] w-[450px] h-[450px] bg-[#DA1C85] rounded-full blur-[140px] opacity-100 mix-blend-screen"></div>
+    <div className="absolute -z-1 pointer-events-none top-[30%] right-[-100px] w-[450px] 2xl:w-[calc(450px+(100%-1546px)*0.35)] h-[450px] bg-[#DA1C85] rounded-full blur-[140px] opacity-100 mix-blend-screen"></div>
   );
 }

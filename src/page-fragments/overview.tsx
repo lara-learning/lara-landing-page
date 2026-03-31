@@ -70,7 +70,7 @@ export function Overview() {
         <ContentBoxWithNumber
           number="03"
           content={"Die Nutzung ist vollständig kostenlos."}
-          color="#5B057C"
+          color="#6e0995"
         />
       </div>
     </section>

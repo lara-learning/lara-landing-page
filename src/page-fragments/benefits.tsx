@@ -1,6 +1,6 @@
 export function Benefits() {
   return (
-    <section className="my-[140px] bg-white text-black px-8 md:px-16 lg:px-32">
+    <section className="py-[140px] bg-white text-black px-8 md:px-16 lg:px-32">
       <div className="mx-auto w-full max-w-[900px] mx-auto">
         <div className="w-full">
           <h2 className="text-4xl font-normal mb-15">
