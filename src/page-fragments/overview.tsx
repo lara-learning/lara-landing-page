@@ -41,10 +41,14 @@ export function Overview() {
         <img
           src="/assets/png/shape-left.png"
           className="absolute top-170 -left-75 w-[850px] aspect-[8/9]"
+          alt=""
+          aria-hidden="true"
         />
         <img
           src="/assets/png/shape_right_2.png"
           className="absolute top-0 -right-75 w-[900px] aspect-square blur-md"
+          alt=""
+          aria-hidden="true"
         />
 
         <ContentBoxWithNumber

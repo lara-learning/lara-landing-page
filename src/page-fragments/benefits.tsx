@@ -93,8 +93,8 @@ function LaraIcon() {
   return (
     <img
       src="/assets/svg/bullet-point.svg"
-      alt="lara-logo"
-      className="w-[18px] aspect-1 text-black"
+      alt="lara-stichpunkt"
+      className="w-[18px] aspect-1 text-black "
     />
   );
 }

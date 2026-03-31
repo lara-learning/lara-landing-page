@@ -1,6 +1,6 @@
 export default function () {
   return (
-    <section className="relative -z-3 min-h-[900px] overflow-hidden bg-black">
+    <section className="relative z-0 min-h-[900px] overflow-hidden bg-black">
       <div className="absolute -z-2 pointer-events-none bottom-[20%] left-[25%] w-[550px] h-[550px] bg-[#da67cf] rounded-full blur-[160px] opacity-100 mix-blend-screen"></div>
       <div className="absolute -z-2 pointer-events-none bottom-[20%] right-[15%] w-[550px] h-[550px] bg-[#DA1C85] rounded-full blur-[160px] opacity-100 mix-blend-screen"></div>
 
@@ -27,7 +27,12 @@ export default function () {
           entwickelt wurde. Mit Lara hast Du die Möglichkeit, dein Berichtsheft
           ganz einfach und ohne Probleme digital zu führen.
         </p>
-        <img className="w-[756px]" src="/assets/png/laptop-and-phone.png" />
+        <img
+          className="w-[756px]"
+          src="/assets/png/laptop-and-phone.png"
+          alt=""
+          aria-hidden="true"
+        />
       </div>
     </section>
   );
