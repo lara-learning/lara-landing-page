@@ -30,6 +30,8 @@ const ContactComponent = ({
   label: string;
   link: string;
 }) => {
+  const displayText = link.replace("mailto:", "");
+
   return (
     <div className="mt-[50px]">
       <p className="text-white text-[26px] md:text-[32px] lg:text-[40px]">
@@ -41,7 +43,7 @@ const ContactComponent = ({
           href={link}
           className="text-white font-light underline underline-offset-4 hover:text-violet-400"
         >
-          {link}
+          {displayText}
         </a>
       </p>
     </div>
