@@ -5,7 +5,6 @@ export function Contact() {
         <h1 className="text-[100px] lg:text-[120px] font-extrabold text-[#6A2FEE]">
           Kontakt
         </h1>
-
         <ContactComponent
           title={"So erreichst du uns"}
           label={"Website: "}
@@ -15,7 +14,7 @@ export function Contact() {
         <ContactComponent
           title={"Jetzt Kontakt aufnehmen"}
           label={"E-Mail: "}
-          link={"laraconnect@accenture.com"}
+          link={"mailto:laraconnect@accenture.com"}
         />
       </div>
     </section>
@@ -39,7 +38,7 @@ const ContactComponent = ({
       <p className="text-[20px] md:text-[25px] lg:text-[30px]">
         <span className="text-[#6A2FEE] font-semibold">{label}</span>
         <a
-          href="mailto:laraconnect@accenture.com"
+          href={link}
           className="text-white font-light underline underline-offset-4 hover:text-violet-400"
         >
           {link}
