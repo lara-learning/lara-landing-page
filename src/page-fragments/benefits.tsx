@@ -1,3 +1,5 @@
+import { JSX } from "react";
+
 export function Benefits() {
   return (
     <section className="py-[140px] bg-white text-black px-8 md:px-16 lg:px-32">
@@ -76,7 +78,7 @@ export function Benefits() {
   );
 }
 
-const BenefitItem = ({ span }) => {
+const BenefitItem = ({ span }: { span: JSX.Element }) => {
   return (
     <li className="flex gap-3">
       <LaraIcon />
@@ -85,7 +87,7 @@ const BenefitItem = ({ span }) => {
   );
 };
 
-const Highlight = ({ text }) => {
+const Highlight = ({ text }: { text: string }) => {
   return <span className="text-[#6A2FEE] font-semibold">{text}</span>;
 };
 

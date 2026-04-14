@@ -77,7 +77,7 @@ export function Overview() {
   );
 }
 
-function Image({ report }) {
+function Image({ report }: { report: number }) {
   return (
     <img
       src={`/assets/png/report-${report}.png`}

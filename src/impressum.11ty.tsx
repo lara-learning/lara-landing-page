@@ -1,10 +1,5 @@
 import { JSX } from "react";
 import { renderToString } from "react-dom/server";
-import Stage from "./page-fragments/stage";
-import { Benefits } from "./page-fragments/benefits";
-import { Overview } from "./page-fragments/overview";
-import { Contact } from "./page-fragments/contact";
-import { Footer } from "./page-fragments/footer";
 
 type BaseLayoutProps = { children?: JSX.Element | JSX.Element[] };
 
@@ -32,13 +27,7 @@ function BaseLayout({ children }: BaseLayoutProps) {
 export function Page() {
   return (
     <BaseLayout>
-      <Stage />
-      <main>
-        <Benefits />
-        <Overview />
-      </main>
-      <Contact />
-      <Footer />
+      <main>TEST</main>
     </BaseLayout>
   );
 }
