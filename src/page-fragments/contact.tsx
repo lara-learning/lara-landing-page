@@ -41,7 +41,7 @@ const ContactComponent = ({
         <span className="text-[#6A2FEE] font-semibold">{label}</span>
         <a
           href={link}
-          className="text-white font-light underline underline-offset-4 transition-colors hover:text-violet-400"
+          className="text-white font-light underline underline-offset-4 transition-colors hover:text-[#DA1C85]"
         >
           {displayText}
         </a>

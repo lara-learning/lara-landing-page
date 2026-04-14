@@ -8,11 +8,8 @@ function BaseLayout({ children }: BaseLayoutProps) {
     <html lang="en" className="bg-black">
       <head>
         <meta charSet="UTF-8" />
-        <meta
-          name="description"
-          content="This is an introductory landing page designed to provide a clear overview of what Lara is and how it works. It presents the core concept, main features, and overall structure of the system in a concise and accessible format."
-        ></meta>
-        <title>Lara Landing Page</title>
+        <meta name="description" content="Impressum"></meta>
+        <title>Lara - Impressum</title>
         <link rel="stylesheet" href={`/assets/style.css`} />
       </head>
 
@@ -27,7 +24,7 @@ function BaseLayout({ children }: BaseLayoutProps) {
 export function Page() {
   return (
     <BaseLayout>
-      <main>TEST</main>
+      <h1 className="text-white">Impressum</h1>
     </BaseLayout>
   );
 }
