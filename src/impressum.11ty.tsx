@@ -1,5 +1,6 @@
 import { JSX } from "react";
 import { renderToString } from "react-dom/server";
+import { Impressum } from "./page-fragments/impressum";
 
 type BaseLayoutProps = { children?: JSX.Element | JSX.Element[] };
 
@@ -24,7 +25,7 @@ function BaseLayout({ children }: BaseLayoutProps) {
 export function Page() {
   return (
     <BaseLayout>
-      <h1 className="text-white">Impressum</h1>
+      <Impressum />
     </BaseLayout>
   );
 }

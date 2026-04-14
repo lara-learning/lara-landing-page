@@ -18,7 +18,7 @@ function Seperator() {
 function FooterLink(href: string, text: string) {
   return (
     <a
-      className="text-white transition-colors hover:text-[#DA1C85] text-[18px] md:text-[20px] lg:text-[22px] font-medium relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-0 after:bg-white after:pointer-none after:transition-all hover:after:w-full hover:after:bg-[#DA1C85]"
+      className="text-white transition-colors hover:text-[#DA1C85] text-[18px] md:text-[20px] lg:text-[22px] font-medium relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-0 after:bg-white after:pointer-events-none after:transition-all hover:after:w-full hover:after:bg-[#DA1C85]"
       href={href}
     >
       {text}
