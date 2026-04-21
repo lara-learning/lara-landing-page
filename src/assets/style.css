@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+@source "../page-fragments/**/*.tsx";
+@source "../*.11ty.tsx";
+@source "../**/*.{html,js,ts,jsx,tsx}";

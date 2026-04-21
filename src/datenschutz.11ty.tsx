@@ -1,5 +1,6 @@
 import { JSX } from "react";
 import { renderToString } from "react-dom/server";
+import Datenschutz from "./page-fragments/datenschutz";
 
 type BaseLayoutProps = { children?: JSX.Element | JSX.Element[] };
 
@@ -24,9 +25,7 @@ function BaseLayout({ children }: BaseLayoutProps) {
 export function Page() {
   return (
     <BaseLayout>
-      <main>
-        <h1 className="text-white">Datenschutzerklärung</h1>
-      </main>
+      <Datenschutz />
     </BaseLayout>
   );
 }
