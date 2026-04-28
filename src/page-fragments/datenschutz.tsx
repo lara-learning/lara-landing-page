@@ -21,11 +21,11 @@ export default function Datenschutz() {
 
           <p className="mt-8 text-xl font-bold text-white">2 Oktober 2019</p>
 
-          <div className="mt-8 w-full h-4 bg-pink-500"></div>
+          <div className="mt-8 w-full h-4 bg-gradient-to-r from-[#DA1C85] to-[#3D1B88]"></div>
         </header>
       </div>
 
-      <div className="w-full max-w-4xl mx-auto mt-16">
+      <div className="w-full max-w-6xl mx-auto mt-16">
         <section className="mt-8 pb-16 lg:pb-20">
           <p className="text-white text-sm leading-relaxed">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -209,7 +209,67 @@ export default function Datenschutz() {
             sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
             et dolore magna aliquyam erat, sed diam voluptua.
           </p>
+
+          <ul className="mt-8 space-y-4 text-sm leading-relaxed">
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <a
+                href="#cookies"
+                className="text-white transition-colors hover:text-[#DA1C85] relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-full after:bg-white after:pointer-events-none after:transition-colors hover:after:bg-[#DA1C85]"
+              >
+                Wie setzen wir Cookies (und sonstige Tracking-Technologien) ein?
+              </a>
+            </li>
+
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <a
+                href="#werbezwecke"
+                className="text-white transition-colors hover:text-[#DA1C85] relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-full after:bg-white after:pointer-events-none after:transition-colors hover:after:bg-[#DA1C85]"
+              >
+                Wie nutzen wir personenbezogene Daten zu Werbezwecken?
+              </a>
+            </li>
+          </ul>
         </section>
+
+        <footer className="mt-20 w-full flex justify-end">
+          <div className="inline-flex flex-col items-start text-left">
+            <div className="mt-0">
+              <h3 className="text-[#4864F1] text-[1.75rem] lg:text-3xl font-bold">
+                Website
+              </h3>
+              <a
+                href="https://lara.sinnerschrader.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 block text-white text-xl lg:text-3xl hover:text-[#DA1C85] transition-colors"
+              >
+                https://lara.sinnerschrader.com/
+              </a>
+            </div>
+
+            <div className="mt-12">
+              <h3 className="text-[#4864F1] text-[1.75rem] lg:text-3xl font-bold">
+                E-Mail
+              </h3>
+              <a
+                href="mailto:laraconnect@accenture.com"
+                className="mt-4 block text-white text-xl lg:text-3xl hover:text-[#DA1C85] transition-colors"
+              >
+                laraconnect@accenture.com
+              </a>
+            </div>
+          </div>
+        </footer>
       </div>
     </section>
   );
