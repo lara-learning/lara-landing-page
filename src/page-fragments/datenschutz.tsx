@@ -1,21 +1,21 @@
 export default function Datenschutz() {
   return (
-    <section className="bg-black text-white px-8 md:px-16 lg:px-32 pt-32 lg:pt-40 pb-20 lg:pb-28">
+    <section className="bg-black text-white px-8 md:px-16 lg:px-32 pt-10 lg:pt-18 pb-10 lg:pb-18">
       <div className="w-full max-w-6xl mx-auto mt-20 lg:mt-20">
         <header>
-          <div className="flex items-end gap-3">
-            <span className="text-[#DA1C85] text-7xl lg:text-8xl font-bold leading-none lowercase">
+          <div className="flex items-center gap-3">
+            <span className="text-[#DA1C85] text-8xl lg:text-9xl font-bold leading-none lowercase">
               lara
             </span>
             <img
               src="/assets/svg/logo.svg"
               alt=""
               aria-hidden="true"
-              className="w-12 lg:w-14 mb-1"
+              className="w-20 lg:w-24"
             />
           </div>
 
-          <h1 className="mt-10 text-6xl lg:text-8xl font-bold leading-tight text-white">
+          <h1 className="mt-10 text-5xl lg:text-7xl font-bold leading-tight text-white">
             Datenschutzerklärung
           </h1>
 
