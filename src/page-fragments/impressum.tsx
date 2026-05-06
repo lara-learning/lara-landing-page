@@ -1,12 +1,14 @@
 export function Impressum() {
   return (
-    <section className="bg-black text-white px-8 md:px-16 lg:px-32 pt-10 lg:pt-18 pb-10 lg:pb-18">
+    <section className="-z-2 bg-black text-white px-8 md:px-16 lg:px-32 pt-10 lg:pt-18 pb-10 lg:pb-18">
       <div className="w-full max-w-6xl mx-auto mt-20 lg:mt-20">
         <header>
-          <div className="flex items-center gap-3">
-            <span className="text-[#DA1C85] text-8xl lg:text-9xl font-bold leading-none lowercase">
-              lara
-            </span>
+          <div className="flex items-center gap-5">
+            <img
+              src="/assets/png/lara-pink.png"
+              alt="lara"
+              className="lg:max-w-[250px] md:max-w-[200px] max-w-[140px]"
+            />
             <img
               src="/assets/svg/logo.svg"
               alt=""
@@ -19,7 +21,7 @@ export function Impressum() {
             Impressum
           </h1>
 
-          <div className="relative mt-8 w-full h-4 bg-gradient-to-r from-[#DA1C85] to-[#3D1B88]"></div>
+          <div className="mt-8 w-full h-4 bg-gradient-to-r from-[#DA1C85] to-[#3D1B88]"></div>
         </header>
         <h2 className="mt-25 text-4xl lg:text-6xl font-bold leading-tight text-white">
           Impressum
