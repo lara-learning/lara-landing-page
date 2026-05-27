@@ -29,121 +29,38 @@ export default function Datenschutz() {
 
       <div className="w-full max-w-6xl mx-auto mt-16">
         <section className="mt-8 pb-16 lg:pb-20">
-          <p className="text-white text-sm leading-relaxed">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna aliquyam erat, sed diam voluptua.
+          <p className="mt-8 mb-8 text-xl font-bold text-white">
+            Datenschutz und Transparenz{" "}
           </p>
-
-          <ul className="mt-8 space-y-4 text-sm leading-relaxed">
-            <li className="flex gap-3">
-              <img
-                src="/assets/svg/bullet-point.svg"
-                alt="lara-stichpunkt"
-                className="w-[18px] aspect-1 mt-1 shrink-0"
-              />
-              <a
-                href="#cookies"
-                className="text-white transition-colors hover:text-[#DA1C85] relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-full after:bg-white after:pointer-events-none after:transition-colors hover:after:bg-[#DA1C85]"
-              >
-                Wie setzen wir Cookies (und sonstige Tracking-Technologien) ein?
-              </a>
-            </li>
-
-            <li className="flex gap-3">
-              <img
-                src="/assets/svg/bullet-point.svg"
-                alt="lara-stichpunkt"
-                className="w-[18px] aspect-1 mt-1 shrink-0"
-              />
-              <a
-                href="#werbezwecke"
-                className="text-white transition-colors hover:text-[#DA1C85] relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-full after:bg-white after:pointer-events-none after:transition-colors hover:after:bg-[#DA1C85]"
-              >
-                Wie nutzen wir personenbezogene Daten zu Werbezwecken?
-              </a>
-            </li>
-
-            <li className="flex gap-3">
-              <img
-                src="/assets/svg/bullet-point.svg"
-                alt="lara-stichpunkt"
-                className="w-[18px] aspect-1 mt-1 shrink-0"
-              />
-              <a
-                href="#geschaeftsraeume"
-                className="text-white transition-colors hover:text-[#DA1C85] relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-full after:bg-white after:pointer-events-none after:transition-colors hover:after:bg-[#DA1C85]"
-              >
-                Wie nutzen wir personenbezogene Daten bei Ihrem Besuch unserer
-                Geschäftsräume?
-              </a>
-            </li>
-          </ul>
+          <p className="text-white text-sm leading-relaxed">
+            Datenschutz und Transparenz sind ein wichtiger Bestandteil von Lara.
+            Wir möchten Ihnen klar und verständlich erläutern, welche
+            personenbezogenen Daten wir erheben, wie wir diese verarbeiten und
+            welche Rechte Ihnen dabei zustehen. Die Verarbeitung
+            personenbezogener Daten erfolgt ausschließlich im Rahmen der
+            geltenden Datenschutzgesetze, insbesondere der
+            Datenschutz-Grundverordnung (DSGVO). Unser Ziel ist es, Ihre Daten
+            verantwortungsvoll zu schützen und Ihnen eine sichere Nutzung von
+            Lara zu ermöglichen.
+          </p>
         </section>
 
         <section className="mt-8 pb-16 lg:pb-20">
-          <h2 className="text-3xl lg:text-5xl font-bold text-white mb-10 lg:mb-14">
+          <h2 className="text-3xl lg:text-5xl font-bold text-white mb-16 lg:mb-14">
             Wie schützt Lara Ihre personenbezogenen Daten?
           </h2>
 
           <p className="text-white text-sm leading-relaxed">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna aliquyam erat, sed diam voluptua.
+            Bei Lara hat der Schutz Ihrer personenbezogenen Daten höchste
+            Priorität. Wir treffen angemessene technische und organisatorische
+            Maßnahmen, um Ihre Daten vor Verlust, unbefugtem Zugriff,
+            Veränderung oder Offenlegung zu schützen. Unsere Systeme werden über
+            sichere Infrastruktur betrieben. Zugriff auf personenbezogene Daten
+            erhalten ausschließlich berechtigte Personen, soweit dies für den
+            Betrieb und die Weiterentwicklung von Lara erforderlich ist. Darüber
+            hinaus überprüfen und aktualisieren wir unsere Sicherheitsmaßnahmen
+            regelmäßig, um ein hohes Datenschutzniveau sicherzustellen.
           </p>
-
-          <ul className="mt-8 space-y-4 text-sm leading-relaxed">
-            <li className="flex gap-3">
-              <img
-                src="/assets/svg/bullet-point.svg"
-                alt="lara-stichpunkt"
-                className="w-[18px] aspect-1 mt-1 shrink-0"
-              />
-              <a
-                href="#cookies"
-                className="text-white transition-colors hover:text-[#DA1C85] relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-full after:bg-white after:pointer-events-none after:transition-colors hover:after:bg-[#DA1C85]"
-              >
-                Wie setzen wir Cookies (und sonstige Tracking-Technologien) ein?
-              </a>
-            </li>
-
-            <li className="flex gap-3">
-              <img
-                src="/assets/svg/bullet-point.svg"
-                alt="lara-stichpunkt"
-                className="w-[18px] aspect-1 mt-1 shrink-0"
-              />
-              <a
-                href="#werbezwecke"
-                className="text-white transition-colors hover:text-[#DA1C85] relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-full after:bg-white after:pointer-events-none after:transition-colors hover:after:bg-[#DA1C85]"
-              >
-                Wie nutzen wir personenbezogene Daten zu Werbezwecken?
-              </a>
-            </li>
-
-            <li className="flex gap-3">
-              <img
-                src="/assets/svg/bullet-point.svg"
-                alt="lara-stichpunkt"
-                className="w-[18px] aspect-1 mt-1 shrink-0"
-              />
-              <a
-                href="#geschaeftsraeume"
-                className="text-white transition-colors hover:text-[#DA1C85] relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-full after:bg-white after:pointer-events-none after:transition-colors hover:after:bg-[#DA1C85]"
-              >
-                Wie nutzen wir personenbezogene Daten bei Ihrem Besuch unserer
-                Geschäftsräume?
-              </a>
-            </li>
-          </ul>
         </section>
 
         <section className="mt-8 pb-16 lg:pb-20">
@@ -153,13 +70,82 @@ export default function Datenschutz() {
           </h2>
 
           <p className="text-white text-sm leading-relaxed">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna aliquyam erat, sed diam voluptua.
+            Im Rahmen der Nutzung von Lara können folgende personenbezogene
+            Daten verarbeitet werden:
+          </p>
+          <p className="mt-8 mb-8 text-xl font-bold text-white">
+            Kontaktdaten und Benutzerinformationen{" "}
+          </p>
+          <ul className="mt-4 space-y-4 text-sm leading-relaxed mb-10 lg:mb-14">
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p> Name oder Username</p>
+            </li>
+
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>E-Mail-Adresse </p>
+            </li>
+          </ul>
+          <p className="mt-8 mb-8 text-xl font-bold text-white">
+            Nutzungsbezogene Daten
+          </p>
+          <ul className="mt-4 space-y-4 text-sm leading-relaxed mb-10 lg:mb-14">
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>
+                Berichtsheft-Einträge und Inhalte, die Nutzer innerhalb von Lara
+                erstellen oder speichern{" "}
+              </p>
+            </li>
+
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>
+                technische Verbindungsdaten und Logfiles (z. B. IP-Adresse,
+                Zeitpunkt des Zugriffs und Browserinformationen){" "}
+              </p>
+            </li>
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>
+                Session- und Cookie-Informationen, soweit diese für die Nutzung
+                und Sicherheit der Plattform erforderlich sind{" "}
+              </p>
+            </li>
+          </ul>
+          <p className="text-white text-sm leading-relaxed">
+            Die Verarbeitung erfolgt ausschließlich für die Bereitstellung und
+            Verbesserung von Lara sowie zur sicheren Nutzung der Plattform.
+            Rechtsgrundlage für die Verarbeitung personenbezogener Daten ist
+            insbesondere Art. 6 Abs. 1 lit. b DSGVO (Bereitstellung und Nutzung
+            der Plattform) sowie Art. 6 Abs. 1 lit. f DSGVO (berechtigtes
+            Interesse an Sicherheit, Stabilität und Weiterentwicklung der
+            Website). Die Bereitstellung bestimmter personenbezogener Daten,
+            insbesondere von Benutzer- und Kontaktdaten, kann für die Nutzung
+            einzelner Funktionen von Lara erforderlich sein. Werden diese Daten
+            nicht bereitgestellt, kann die Nutzung bestimmter Funktionen oder
+            Dienste eingeschränkt oder nicht möglich sein.
           </p>
         </section>
 
@@ -170,13 +156,92 @@ export default function Datenschutz() {
           </h2>
 
           <p className="text-white text-sm leading-relaxed">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna aliquyam erat, sed diam voluptua.
+            Beim Besuch der Lara-Website werden automatisch technische
+            Informationen verarbeitet, um die Funktionsfähigkeit und Sicherheit
+            der Plattform zu gewährleisten.
+          </p>
+          <p className="mt-8 mb-8 text-xl font-bold text-white">
+            Hierzu können insbesondere gehören:
+          </p>
+          <ul className="mt-4 space-y-4 text-sm leading-relaxed mb-10 lg:mb-14">
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>IP-Adresse</p>
+            </li>
+
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>Datum und Uhrzeit des Zugriffs</p>
+            </li>
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>Browser- und Geräteinformationen</p>
+            </li>
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>
+                aufgerufene Seiten und technische Fehlermeldungen Diese Daten
+                dienen insbesondere:{" "}
+              </p>
+            </li>
+          </ul>
+          <p className="mt-8 mb-8 text-xl font-bold text-white">
+            Diese Daten dienen insbesondere:
+          </p>
+          <ul className="mt-4 space-y-4 text-sm leading-relaxed mb-10 lg:mb-14">
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>der technischen Bereitstellung der Website </p>
+            </li>
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>der Stabilität und Sicherheit unserer Systeme </p>
+            </li>
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>der Fehleranalyse und Missbrauchsprävention</p>
+            </li>
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>der Verbesserung der Nutzererfahrung </p>
+            </li>
+          </ul>
+          <p className="text-white text-sm leading-relaxed">
+            Soweit technisch erforderlich, verwendet Lara Cookies oder
+            vergleichbare Technologien zur Verwaltung von Sitzungen und zur
+            sicheren Nutzung der Plattform.
           </p>
         </section>
 
@@ -186,14 +251,110 @@ export default function Datenschutz() {
             Daten nutzen?
           </h2>
 
+          <p className="mt-8 mb-8 text-xl font-bold text-white">
+            Personenbezogene Daten können außerdem verarbeitet werden, soweit
+            dies erforderlich ist für:
+          </p>
+          <ul className="mt-4 space-y-4 text-sm leading-relaxed mb-10 lg:mb-14">
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>Kommunikation und Supportanfragen </p>
+            </li>
+
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>technische Wartung und Weiterentwicklung von Lara </p>
+            </li>
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>Sicherheits- und Missbrauchserkennung </p>
+            </li>
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>Erfüllung gesetzlicher Verpflichtungen</p>
+            </li>
+          </ul>
+
           <p className="text-white text-sm leading-relaxed">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna aliquyam erat, sed diam voluptua.
+            Personenbezogene Daten werden nur so lange gespeichert, wie dies für
+            die jeweiligen Zwecke erforderlich oder gesetzlich vorgeschrieben
+            ist. Empfänger personenbezogener Daten können technische
+            Dienstleister sein, soweit dies für den Betrieb und die
+            Bereitstellung von Lara erforderlich ist.
+          </p>
+          <p className="mt-8 mb-8 text-xl font-bold text-white">
+            Sie haben jederzeit das Recht auf:
+          </p>
+          <ul className="mt-4 space-y-4 text-sm leading-relaxed mb-10 lg:mb-14">
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>Auskunft über gespeicherte Daten </p>
+            </li>
+
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>Berichtigung unrichtiger Daten </p>
+            </li>
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>Löschung personenbezogener Daten </p>
+            </li>
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>Einschränkung der Verarbeitung </p>
+            </li>
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>Datenübertragbarkeit </p>
+            </li>
+            <li className="flex gap-3">
+              <img
+                src="/assets/svg/bullet-point.svg"
+                alt="lara-stichpunkt"
+                className="w-[18px] aspect-1 mt-1 shrink-0"
+              />
+              <p>Widerspruch gegen bestimmte Datenverarbeitungen </p>
+            </li>
+          </ul>
+          <p className="text-white text-sm leading-relaxed">
+            Darüber hinaus besteht ein Beschwerderecht bei einer zuständigen
+            Datenschutzaufsichtsbehörde.
           </p>
         </section>
 
@@ -202,45 +363,21 @@ export default function Datenschutz() {
             Kontaktieren Sie uns
           </h2>
 
-          <p className="text-white text-sm leading-relaxed">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna aliquyam erat, sed diam voluptua.
+          <p className="mt-8 mb-8 text-xl font-bold text-white">
+            Verantwortliche Stelle gemäß DSGVO
           </p>
-
-          <ul className="mt-8 space-y-4 text-sm leading-relaxed">
-            <li className="flex gap-3">
-              <img
-                src="/assets/svg/bullet-point.svg"
-                alt="lara-stichpunkt"
-                className="w-[18px] aspect-1 mt-1 shrink-0"
-              />
-              <a
-                href="#cookies"
-                className="text-white transition-colors hover:text-[#DA1C85] relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-full after:bg-white after:pointer-events-none after:transition-colors hover:after:bg-[#DA1C85]"
-              >
-                Wie setzen wir Cookies (und sonstige Tracking-Technologien) ein?
-              </a>
-            </li>
-
-            <li className="flex gap-3">
-              <img
-                src="/assets/svg/bullet-point.svg"
-                alt="lara-stichpunkt"
-                className="w-[18px] aspect-1 mt-1 shrink-0"
-              />
-              <a
-                href="#werbezwecke"
-                className="text-white transition-colors hover:text-[#DA1C85] relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-full after:bg-white after:pointer-events-none after:transition-colors hover:after:bg-[#DA1C85]"
-              >
-                Wie nutzen wir personenbezogene Daten zu Werbezwecken?
-              </a>
-            </li>
-          </ul>
+          <p className="text-white text-sm leading-relaxed">
+            Accenture Song Build Germany GmbH
+          </p>
+          <p className="text-white text-sm leading-relaxed">
+            Registergericht: Hamburg, HRB 63663
+          </p>
+          <p className="mt-8 mb-8 text-xl font-bold text-white">
+            Vertreten durch:
+          </p>
+          <p className="text-white text-sm leading-relaxed">Russel Barber</p>
+          <p className="text-white text-sm leading-relaxed"> Dr. Lars Finke</p>
+          <p className="text-white text-sm leading-relaxed"> Dino Frese</p>
         </section>
 
         <footer className="mt-20 w-full flex justify-end">
