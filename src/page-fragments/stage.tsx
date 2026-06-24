@@ -15,15 +15,15 @@ export default function () {
 
       <div className="mx-16 md:mx-32 lg:mx-64 flex items-center flex-col">
         <img
-          className="w-[60px] aspect-1 mt-[140px]"
+          className="w-[60px] aspect-1 mt-[100px]"
           src="/assets/svg/logo.svg"
           alt="lara-logo"
           fetchPriority="high"
         />
-        <h1 className="text-white text-6xl lg:text-8xl font-bold text-center mt-4">
+        <h1 className="text-white text-[92px] font-bold text-center mt-4 max-w-[760px] leading-[1]">
           Willkommen bei lara!
         </h1>
-        <p className="text-white text-l lg:text-xl text-center mt-6">
+        <p className="text-white text-lg lg:text-xl text-center mt-6 max-w-[900px] pt-6">
           Lara ist ein digitales Berichtsheft, welches von Azubis für Azubis
           entwickelt wurde. Mit Lara hast Du die Möglichkeit, dein Berichtsheft
           ganz einfach und ohne Probleme digital zu führen.

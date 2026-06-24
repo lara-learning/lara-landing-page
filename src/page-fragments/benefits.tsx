@@ -18,7 +18,7 @@ export function Benefits() {
             </div>
           </h2>
 
-          <ul className="mt-8 space-y-4 text-sm leading-relaxed">
+          <ul className="w-full mt-6 font-normal text-[20px] leading-relaxed">
             <BenefitItem
               span={
                 <>
@@ -42,7 +42,7 @@ export function Benefits() {
 
           <h3 className="mt-25 text-4xl font-normal">Vorraussetzungen:</h3>
 
-          <ul className="mt-6 space-y-4 text-sm leading-relaxed">
+          <ul className="w-full mt-6 font-normal text-[20px] leading-relaxed">
             <BenefitItem
               span={
                 <>
