@@ -38,30 +38,31 @@ export function Impressum() {
             Lara
           </h2>
           <p className="text-white text-sm leading-relaxed">
-            [Vor- und Nachname oder Firmenname]
+            Accenture Song Build Germany GmbH
           </p>
           <p className="text-white text-sm leading-relaxed">
-            [Straße und Hausnummer]
+            Völckersstraße 38
           </p>
-          <p className="text-white text-sm leading-relaxed">[PLZ und Ort]</p>
+          <p className="text-white text-sm leading-relaxed">
+            22765 Hamburg; Registergericht: Hamburg, HRB 63663.
+          </p>
           <p className="mt-8 text-xl font-bold text-white">Kontakt</p>
           <p className="text-white text-sm leading-relaxed">
-            Telefon: [Telefonnummer]
+            Telefon: +49 40 39 88 55 0
           </p>
           <p className="text-white text-sm leading-relaxed">
-            E-Mail: [E-Mail-Adresse]
+            E-Mail: laraconnect@accenture.com
           </p>
           <p className="mt-10 text-white text-sm leading-relaxed">
-            Vertreten durch [Vor- und Nachname] (nur nötig bei Unternehmen /
-            juristischen Personen)
+            Vertreten durch Russel Barber, Dr. Lars Finke, Dino Frese
           </p>
           <p className="mt-10 text-white text-sm leading-relaxed">
             Umsatzsteuer-ID Umsatzsteuer-Identifikationsnummer gemäß §27 a
-            Umsatzsteuergesetz: [USt-IdNr.] (nur falls vorhanden)
+            Umsatzsteuergesetz: DE812160091
           </p>
           <p className="mt-10 text-white text-sm leading-relaxed">
-            Verantwortlich für den Inhalt nach §18 Abs. 2 MStV [Vor- und
-            Nachname] [Adresse - kann identisch mit oben sein]
+            Verantwortlich für den Inhalt nach §18 Abs. 2 MStV - Russel Barber,
+            Dr. Lars Finke, Dino Frese; Völckersstraße 38, 22765 Hamburg.
           </p>
         </section>
 
